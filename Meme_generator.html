@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lizzy's Meme Generator</title>
+</head>
+<body>
+    <header class="header">
+
+        <h1>a totally normal webpage that is definitely not used to make 
+            <span class="firstM" >m</span>
+            <span class="firstE">e</span>
+            <span class="secondM" >m</span>
+            <span class="secondE">e</span> 
+            <span class="firstS">s</span> 
+        </h1>
+           
+    </header>
+
+    <br>
+    <form action="#", class="newMemeForm", id="newMemeForm">
+        <label for="pictureLink">paste the link to a silly picture here: </label>
+        <input type="text" name = "pictureLink" id = "pictureLink" autofocus>
+        <br>
+        <label for="topText">throw in some text for the top of your picture here: </label>
+        <input type="text" name="topText" id = "topText" autofocus>
+        <br>
+        <label for="bottomText">and some text for bottom of your picture here: </label>
+        <input type="text" name="bottomText" id = "bottomText" autofocus>
+        <br>
+        <input type="submit" class= "submit" value="submit">
+    </form>
+    <div class = "newMeme" id = "newMeme">
+        <div class="imageTextTop" id = "imageTextTop"></div>
+        <div class="imageTextBottom" id = "imageTextBottom"></div>
+        <br>
+    </div>
+    
+    <script src="meme_gen_js.js"></script>
+    <link rel="stylesheet" href="meme_gen_style.css">
+
+</body>
+</html>

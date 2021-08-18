@@ -1,0 +1,75 @@
+#topText {
+    background-color: rgb(235, 214, 122);
+}
+#bottomText{
+    background-color: rgb(235, 214, 122);
+}
+#pictureLink{
+    background-color: rgb(235, 214, 122);
+}
+.newMeme {
+    position: relative;
+    height: auto;
+    width: 40%;
+    margin: auto;
+    display: block;
+    border: 5px black;
+}
+.newMeme .imageTextTop {
+
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    top: 10%;
+    text-align: center;
+}
+.newMeme .imageTextBottom {
+
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    bottom: 10%;
+    text-align: center;
+}
+
+body {
+    background-color:rgb(167, 185, 161);
+}
+.newMemeForm {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: medium;
+    display: inline;
+}
+.firstM {
+    color: red;
+    letter-spacing: 0cm;
+    font-family: cursive;
+}
+.firstE {
+    color: orange;
+    letter-spacing: 0cm;
+    font-family: serif;
+}
+.secondM {
+    color: yellow;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.secondE {
+    color: green;
+    font-family: fantasy;
+}
+.firstS {
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.submit {
+    color: white;
+    background-color: purple;
+}
